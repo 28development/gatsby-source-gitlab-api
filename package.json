@@ -1,0 +1,26 @@
+{
+  "name": "gatsby-source-gitlab-api",
+  "version": "1.0.0",
+  "description": "A minimal boilerplate for the essential files Gatsby looks for in a plugin",
+  "repository": "https://github.com/28development/gatsby-source-gitlab-api.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script setup\""
+  },
+  "keywords": [
+    "gitlab",
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "gatsby-gitlab",
+    "gatsby-source-gitlab-api"
+  ],
+  "author": "Umut Tufanoglu <28development@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@gitbeaker/browser": "^28.0.4",
+    "@gitbeaker/cli": "^28.0.4",
+    "@gitbeaker/node": "^28.0.4"
+  }
+}

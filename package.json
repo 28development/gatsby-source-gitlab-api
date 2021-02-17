@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-gitlab-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gatsby Gitlab Api Source",
   "repository": "https://github.com/28development/gatsby-source-gitlab-api.git",
   "main": "index.js",

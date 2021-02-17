@@ -1,14 +1,14 @@
-import { Gitlab } from '@gitbeaker/node';
+const { Gitlab } = require('@gitbeaker/node');
 
 exports.onPreInit = () => console.log("Loaded gatsby-source-gitlab-api")
 
 exports.sourceNodes = async ({ 
     actions,
     configOptions
-  }) => {
+}) => {
 
     if (!configOptions.accessToken) {
-      throw 'You need to enter an accessToken';
+        throw 'You need to enter an accessToken';
     }
   
     const { createNode } = actions
@@ -25,5 +25,5 @@ exports.sourceNodes = async ({
         })
     )
 
-    return
+    return;
 };

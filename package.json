@@ -1,13 +1,9 @@
 {
   "name": "gatsby-source-gitlab-api",
   "version": "1.0.0",
-  "description": "A minimal boilerplate for the essential files Gatsby looks for in a plugin",
+  "description": "Gatsby Gitlab Api Source",
   "repository": "https://github.com/28development/gatsby-source-gitlab-api.git",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"No build script setup\""
-  },
   "keywords": [
     "gitlab",
     "gatsby",

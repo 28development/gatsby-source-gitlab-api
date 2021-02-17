@@ -1,4 +1,4 @@
-const { Gitlab } = require('@gitbeaker/browser');
+const { Gitlab } = require('@gitbeaker/node');
 
 exports.onPreInit = () => console.log("Loaded gatsby-source-gitlab-api")
 
